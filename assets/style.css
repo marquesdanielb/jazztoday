@@ -1,0 +1,145 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+    background: #555555;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    text-align: right;
+    width: 940px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    background: linear-gradient(#FEFEFE, #555555);
+}
+
+main h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+main p {
+    padding: 10px;
+    text-align: center;
+}
+
+.painel-imagens {
+    display: inline-block;
+    width: "30%";
+    height: "600";
+    text-align: center;
+    width: 100%;
+}
+article {
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+
+article h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 10px 10px 10px;
+}
+
+.caixa-mensagem {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.caixa-mensagem textarea {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 18px 0;
+}
+
+.botao {
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: #444444;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.botao:hover {
+    background: #000000;
+}
+
+footer {
+    background: #555555;
+    text-align: center;
+    color: #000000;
+    font-size: 12px;
+    width: 100%;
+}
+
+.caixa-footer img {
+    position: relative;
+}
+
+/* css para as imagens do noticias.html */
+
+.div-noticias {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.div-noticias p {
+    text-align: right;
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 20px 40px;
+    border: solid 1px black;
+    margin-top: 20px;
+  }
